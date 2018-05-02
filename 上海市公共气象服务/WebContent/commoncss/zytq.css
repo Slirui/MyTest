@@ -1,0 +1,263 @@
+/** 平均值查询 **/
+#average {
+	height: 100%;
+}
+
+#average p {
+	color: #000000;
+	font-size: 13px;
+	width: 50px;
+	float: left;
+	line-height: 35px;
+	margin-left: 7px;
+}
+
+#average select {
+	margin: 7px 0 0 10px;
+}
+
+/** 要素排名查询 **/
+#elements ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#elements ul li {
+	list-style: none;
+	width: 100%;
+	height: 37px;
+	padding: 0 0 0 7px;
+}
+
+#elements p {
+	color: #000000;
+	font-size: 13px;
+	width: 70px;
+	float: left;
+	line-height: 27px;
+}
+
+#elements select, #elements input {
+	margin: 0 0 0 10px;
+}
+
+/** 重要天气查询 **/
+#impW ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#impW ul li {
+	list-style: none;
+	width: 100%;
+	height: 37px;
+	padding: 0 0 0 7px;
+}
+
+#impW p {
+	color: #000000;
+	font-size: 13px;
+	width: 70px;
+	float: left;
+	line-height: 27px;
+}
+
+#impW select, #impW input {
+	margin: 0 0 0 10px;
+}
+
+/** 日雨量类型1查询 **/
+#rt1 ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#rt1 ul li {
+	list-style: none;
+	width: 100%;
+	height: 37px;
+	padding: 0 0 0 7px;
+}
+
+#rt1 p {
+	color: #000000;
+	font-size: 13px;
+	width: 70px;
+	float: left;
+	line-height: 27px;
+}
+
+#rt1 select, #rt1 input {
+	margin: 0 0 0 10px;
+}
+
+/** 日雨量类型2查询 **/
+#rt2 ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#rt2 ul li {
+	list-style: none;
+	width: 100%;
+	height: 37px;
+	padding: 0 0 0 7px;
+}
+
+#rt2 p {
+	color: #000000;
+	font-size: 13px;
+	width: 70px;
+	float: left;
+	line-height: 27px;
+}
+
+#rt2 select, #rt2 input {
+	margin: 0 0 0 10px;
+}
+
+/** 日雨量类型3查询 **/
+#rt3 ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#rt3 ul li {
+	list-style: none;
+	width: 100%;
+	height: 37px;
+	padding: 0 0 0 7px;
+}
+
+#rt3 p {
+	color: #000000;
+	font-size: 13px;
+	width: 70px;
+	float: left;
+	line-height: 27px;
+}
+
+#rt3 select, #rt3 input {
+	margin: 0 0 0 10px;
+}
+
+.search {
+	position: absolute;
+	bottom: 5px;
+	left: 30%;
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+}
+
+/** 日雨量查询 **/
+#slt1 ul, #slt2 ul {
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 95%;
+	margin-top: -35px;
+}
+
+#slt1 ul li, #slt2 ul li {
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+}
+
+#slt1 ul li p, #slt2 ul li p {
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 13px;
+	width: 37%;
+}
+
+#slt1 {
+	width: 100%;
+	height: 90px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#slt2 {
+	width: 100%;
+	height: 200px;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+.sltdisabled {
+	background: #F2F2F2;
+	z-index: 999;
+	opacity: 0.8;
+}
+
+.rainsearch {
+	position: relative;
+	margin: 5px 0;
+	left: 30%;
+	font-size: 13px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.radio {
+	*display: inline;
+	*zoom: 1;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 20px;
+}
+
+.radio ins {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 23px;
+	height: 22px;
+	vertical-align: middle;
+	background: url(http://www.bootcss.com/p/icheck/skins/square/blue.png)
+		no-repeat;
+	margin-right: 8px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	vertical-align: middle;
+}
+
+.radio ins {
+	background-position: -120px 0px;
+}
+
+.radio .hover {
+	background-position: -144px 0px;
+}
+
+.radio .checked {
+	background-position: -168px 0px;
+}
+
+.radio .enable {
+	background-position: -214px 0px;
+}
+
+.radio .disabled {
+	background-position: -191px 0px;
+}

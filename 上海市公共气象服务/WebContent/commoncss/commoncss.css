@@ -1,0 +1,494 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+/*左菜单*/
+#navul li {
+	list-style-type: none;
+}
+
+#navul li.navmoon {
+	background: #66CC99;
+}
+
+#navul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+
+#navul li a {
+	display: block;
+	line-height: 25px;
+	border: 1px solid #9C9C9C;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+}
+
+#navul .first {
+	background-color: #66CC99;
+}
+
+#nav {
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid #9C9C9C;
+	height: 500px;
+	width: 98px;
+}
+
+/*导航栏*/
+#caidan {
+	position: fixed;
+	/* 	top: 50px; */
+}
+
+#neirong {
+	float: left;
+	/* 	margin-top: 60px; */
+	margin-left: 100px;
+}
+
+#show {
+	position: fixed;
+	top: 52px;
+}
+
+/*数据查询--平均值查询*/
+#averagetab table {
+	border-collapse: collapse;
+	width: 1300px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#averagetab table th, #averagetab table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#averagetab tr, td {
+	font-family: '楷体';
+	border: 1px solid black;
+}
+
+/*极值查询--要素排名*/
+#temsorttab table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	text-align: center;
+	width: 800px;
+}
+
+#temsorttab table th, #temsorttab table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#temsorttab tr, td {
+	border: 1px solid silver;
+}
+
+/*极值查询--重要天气*/
+#impwtab table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 800px;
+	text-align: center;
+}
+
+#impwtab table th, #impwtab table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#impwtab tr, td {
+	border: 1px solid black;
+}
+
+.add {
+	margin-left: 15px;
+	width: 80px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 10px;
+}
+
+.edit {
+	margin-left: 15px;
+	width: 80px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 10px;
+}
+
+/*极值查询--日雨量类型1*/
+#raintab1 table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	text-align: center;
+	width: 800px;
+}
+
+#raintab1 table th, #raintab1 table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#raintab1 tr, td {
+	border: 1px solid silver;
+}
+
+/*极值查询--日雨量类型2*/
+#raintab2 table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	text-align: center;
+	width: 800px;
+}
+
+#raintab2 table th, #raintab2 table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#raintab2 tr, td {
+	border: 1px solid silver;
+}
+
+/*极值查询--日雨量类型3*/
+#raintab3 table {
+	border-collapse: collapse;
+	margin-top: 10px;
+	text-align: center;
+	width: 800px;
+}
+
+#raintab3 table th, #raintab3 table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+#raintab3 tr, td {
+	border: 1px solid silver;
+}
+
+/*分页显示雨量信息*/
+#pres table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-top: 20px;
+	width: 800px;
+	text-align: center;
+}
+
+#pres table th, #pres table td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+/*决策服务建议--国定假日*/
+#holidaycts {
+	overflow-y: auto;
+	width: 100%;
+	height: 550px;
+}
+
+/*决策服务建议--国定假日标题*/
+#holidaytit a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 15px;
+}
+
+/*决策服务建议--重要天气*/
+#weathercts {
+	overflow-y: auto;
+	width: 100%;
+	height: 530px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	/*   	border: 1px solid #000000;  */
+}
+
+.menu .editor {
+	margin: 5px;
+	width: 80px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 10px;
+}
+
+/*典型案例*/
+#contents a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #58aced;
+}
+
+#contents {
+	overflow-y: auto;
+	width: 100%;
+	height: 550px;
+}
+
+#contents p {
+	text-indent: 2em;
+}
+
+.dhead {
+	position: absolute;
+	text-align: right;
+	border: 1px solid #000000;
+	width: 100%;
+	height: 45px;
+}
+
+.dhead .edit {
+	position: relative;
+	width: 60px;
+	height: 15px;
+	font-size: 13px;
+	line-height: 3px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/*弹框背景*/
+.popbg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: #667580;
+	opacity: 0.6;
+	display: none;
+}
+
+/*新增重要天气*/
+.impwadd {
+	position: relative;
+	width: 100%;
+	height: auto;
+	/* 	border: 1px solid #000000; */
+}
+
+.impwadd ul {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	/* 	border: 1px solid #000000; */
+}
+
+.impwadd ul li {
+	position: relative;
+	list-style: none;
+	width: 100%;
+	height: 40px;
+	/* 	border: 1px solid #000000; */
+	line-height: 35px;
+}
+
+.impwadd ul li p {
+	position: relative;
+	float: left;
+	width: 35%;
+	margin: 2px 15px 2px 0;
+	text-align: right;
+}
+
+.impwadd .commit {
+	position: relative;
+	width: 90px;
+	height: 35px;
+	font-size: 15px;
+	line-height: 10px;
+}
+
+/*编辑重要天气*/
+.econtent {
+	position: relative;
+	width: 100%;
+	/* 	max-height: 350px; */
+	overflow-x: hidden;
+	overflow-y: auto;
+	/* 	border: 1px solid #000000; */
+}
+
+.etable .edit {
+	position: relative;
+	float: left;
+	width: 60px;
+	height: 15px;
+	font-size: 13px;
+	line-height: 3px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.etable .delete {
+	position: relative;
+	float: left;
+	width: 60px;
+	height: 15px;
+	font-size: 13px;
+	line-height: 3px;
+}
+
+.etable table {
+	border: none;
+	border-collapse: collapse;
+}
+
+.etable table tbody {
+	border: 1px #e5e5e5 solid;
+	border-bottom: none;
+}
+
+.econtent table th {
+	font-size: 12px;
+	line-height: 25px;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+	background: #f7f7f7;
+	width: 80px;
+}
+
+.econtent table td {
+	font-size: 10px;
+	line-height: 20px;
+	color: #333333;
+	text-align: center;
+	padding: 3px;
+}
+
+/*编辑重要天气-编辑*/
+.impwaddEdit {
+	position: relative;
+	width: 100%;
+	height: 90px;
+	/* 	border: 1px solid #000000; */
+}
+
+.impwaddEdit ul {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	/* 	border: 1px solid #000000; */
+}
+
+.impwaddEdit ul li {
+	position: relative;
+	float: left;
+	list-style: none;
+	width: 48%;
+	height: 40px;
+	/* 	border: 1px solid #000000; */
+	line-height: 35px;
+}
+
+.impwaddEdit ul li p {
+	position: relative;
+	float: left;
+	width: 30%;
+	margin: 2px;
+	font-size: 13px;
+	text-align: right;
+}
+
+.impwaddEdit ul li input {
+	width: 50%;
+	height: 30px;
+	margin-top: 2px;
+}
+
+/*分页*/
+.pages {
+	margin: 5px 15px 0 15px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 11px;
+	color: #666666;
+}
+
+.pages .pages-l {
+	float: left;
+}
+
+.pages .pages-l span {
+	color: #c9161e;
+}
+
+.pages .pages-r {
+	float: right;
+}
+
+.pages .pages-r a {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-left: 6px;
+	margin-top: 0px;
+	background: url(../images/pages.png) no-repeat;
+}
+
+.pages .pages-r .t1 {
+	background-position: 0px 0px;
+}
+
+.pages .pages-r .t2 {
+	background-position: -30px 0px;
+}
+
+.pages .pages-r .t3 {
+	background-position: -60px 0px;
+}
+
+.pages .pages-r .t4 {
+	background-position: -90px 0px;
+}
+
+.pages .pages-r .t5 {
+	background-position: -120px 0px;
+}
+
+/*文本编辑器弹窗*/
+section {
+	width: 100%;
+	margin: auto;
+	text-align: left;
+}
+
+.btbtn {
+	position: relative;
+	border-top: 1px solid #cccccc;
+	width: 100%;
+	height: 45px;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+	text-align: right;
+}
+
+.btbtn .commit {
+	position: relative;
+	width: 70px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 10px;
+	margin-right: 5px;
+}

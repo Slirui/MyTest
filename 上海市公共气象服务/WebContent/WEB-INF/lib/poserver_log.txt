@@ -1,0 +1,4 @@
+欢迎使用 PageOffice 产品
+PageOffice 注册信息：注册码：2XR7B-Z94I-1E16-ESULV<br>版本：Standard 4
+<p>License文件位置：E:\Lyric_shui\上海市公共气象服务\WebContent\WEB-INF\lib\license.lic</p>
+PageOffice 运行信息：没有日志信息。

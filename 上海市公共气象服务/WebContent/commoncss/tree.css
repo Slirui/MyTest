@@ -1,0 +1,49 @@
+.tree-node {
+	height: 40px;
+	white-space: nowrap;
+	cursor: pointer;
+	padding-top: 9px;
+}
+
+.tree-expanded, .tree-collapsed, .tree-folder, .tree-file,
+	.tree-checkbox, .tree-indent {
+	margin-top: 0px;
+}
+
+.tree-title {
+	font-size: 13px;
+	padding: 0 5px;
+	height: 40px;
+	line-height: 25px;
+	color: #ffffff;
+}
+
+.tree-node-hover {
+	background: #263a4f;
+	color: #ffffff;
+}
+
+.tree-node-selected {
+	background: #263a4f;
+	color: #ffffff;
+}
+
+.tree-folder {
+	background: url('../images/menu.png') no-repeat;
+}
+
+.tree-folder-open {
+	background: url('../images/menu.png') no-repeat;
+}
+
+.tree-file {
+	background: url('../images/pointline.png') no-repeat;
+}
+
+#leaf #one, #leaf #two, #leaf #three, #leaf #delete:hover {
+	cursor: pointer;
+}
+
+#leaf2 #one, #leaf2 #two, #leaf2 #delete:hover {
+	cursor: pointer;
+}

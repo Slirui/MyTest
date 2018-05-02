@@ -1,0 +1,202 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+ul, li, p {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.loginbg {
+	width: 100%;
+	height: 500px;
+}
+
+.head {
+	width: 100%;
+	height: 10%;
+	background-color: #29ba9c;
+	border-bottom: 8px solid #098a6f;
+}
+
+.logo {
+	display: inline-block;
+	width: 25%;
+	margin-top: 1.5%;
+	margin-left: 6%;
+	margin-bottom: 1%;
+}
+
+.head p {
+	position: relative;
+	color: #ffffff;
+	float: left;
+	z-index: 10;
+}
+
+.p1 {
+	font-size: 35px;
+	font-family: "黑体";
+	line-height: 85px;
+	left: 5%;
+	z-index: 10;
+}
+
+.p2 {
+	font-size: 25px;
+	font-family: "黑体";
+	line-height: 40px;
+	text-align: center;
+	left: 7%;
+	top: 25%;
+	z-index: 10;
+	background-color: #ff840b;
+	border-radius: 5px;
+	width: 13%;
+	height: 50%;
+}
+
+.login {
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	right: 3%;
+	top: 30%;
+	padding: 35px 35px 10px 70px;
+	background-color: #ffffff;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 10;
+	min-width: 500px;
+	min-height: 250px;
+	/*border: 1px solid #000000;*/
+}
+
+.logintit {
+	font-size: 20px;
+	font-family: "黑体";
+	font-weight: bold;
+	width: 100%;
+	height: 12%;
+	border-bottom: 2px solid #000000;
+}
+
+.zhdl {
+	width: 100%;
+	height: 60%;
+	padding: 20px 10px 0 0;
+	border-bottom: 1px solid #000000;
+}
+
+.zhdl ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.zhdl ul li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	text-align: left;
+	clear: both;
+}
+
+.zhdl ul li>div {
+	float: left;
+	display: inline-block;
+}
+
+.zhdl ul li>div:nth-child(2) {
+	width: 77%;
+}
+
+div.zhdl_up {
+	margin: 5px 0 0 55px;
+	height: 30px;
+	font-size: 17px;
+	color: #000000;
+	font-weight: 400;
+	font-family: "黑体";
+	line-height: 30px;
+}
+
+.zhdl ul li p {
+	position: relative;
+}
+
+.zhdl .zhdl_btn {
+	width: 100%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.zhdl ul li input {
+	background-color: transparent;
+	color: black;
+	appearance: none; /*下拉框去掉右侧图标*/
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	position: relative;
+	min-width: 300px;
+	height: 30px;
+	border: solid 1px #A4A8A8;
+	margin-left: 20px;
+	top: 3px;
+	width: 100%;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.submitForm {
+	width: 35%;
+	height: 27%;
+	background-color: #098a6f;
+	color: #ffffff;
+	border: none;
+	margin-top: 10px;
+	font-family: "宋体";
+	font-size: 15px;
+	min-height: 40px;
+}
+
+.loginfoot {
+	width: 100%;
+	height: 30px;
+}
+
+.loginfoot img {
+	display: inline-block;
+	float: left;
+	width: 15px;
+	margin: 15px 0 0 50px;
+}
+
+.loginfoot p {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 45px;
+	width: 70%;
+	color: #000000;
+	margin-left: 15px;
+}
+
+.foot {
+	position: absolute;
+	bottom: 15px;
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	opacity: 0.8;
+}

@@ -1,0 +1,186 @@
+[
+	{
+		"name": "台风蓝色",
+		"icon": "hff0736-1.png"
+	},
+	{
+		"name": "台风黄色",
+		"icon": "hff0736-2.png"
+	},
+	{
+		"name": "台风橙色",
+		"icon": "hff0736-3.png"
+	},
+	{
+		"name": "台风红色",
+		"icon": "hff0736-4.png"
+	},
+	{
+		"name": "暴雨蓝色",
+		"icon": "hff0736-5.png"
+	},
+	{
+		"name": "暴雨黄色",
+		"icon": "hff0736-6.png"
+	},
+	{
+		"name": "暴雨橙色",
+		"icon": "hff0736-7.png"
+	},
+	{
+		"name": "暴雨红色",
+		"icon": "hff0736-8.png"
+	},
+	{
+		"name": "高温黄色",
+		"icon": "hff0736-25.png"
+	},
+	{
+		"name": "高温橙色",
+		"icon": "hff0736-26.png"
+	},
+	{
+		"name": "高温红色",
+		"icon": "hff0736-27.png"
+	},
+	{
+		"name": "寒潮蓝色",
+		"icon": "hff0736-13.png"
+	},
+	{
+		"name": "寒潮黄色",
+		"icon": "hff0736-14.png"
+	},
+	{
+		"name": "寒潮橙色",
+		"icon": "hff0736-15.png"
+	},
+	{
+		"name": "寒潮红色",
+		"icon": "hff0736-16.png"
+	},
+	{
+		"name": "大雾黄色",
+		"icon": "hff0736-38.png"
+	},
+	{
+		"name": "大雾橙色",
+		"icon": "hff0736-39.png"
+	},
+	{
+		"name": "大雾红色",
+		"icon": "hff0736-40.png"
+	},
+	{
+		"name": "雷电黄色",
+		"icon": "hff0736-30.png"
+	},
+	{
+		"name": "雷电橙色",
+		"icon": "hff0736-31.png"
+	},
+	{
+		"name": "雷电红色",
+		"icon": "hff0736-32.png"
+	},
+	{
+		"name": "大风蓝色",
+		"icon": "hff0736-17.png"
+	},
+	{
+		"name": "大风黄色",
+		"icon": "hff0736-18.png"
+	},
+	{
+		"name": "大风橙色",
+		"icon": "hff0736-19.png"
+	},
+	{
+		"name": "大风红色",
+		"icon": "hff0736-20.png"
+	},
+	{
+		"name": "沙尘暴黄色",
+		"icon": "hff0736-21.png"
+	},
+	{
+		"name": "沙尘暴橙色",
+		"icon": "hff0736-22.png"
+	},
+	{
+		"name": "沙尘暴红色",
+		"icon": "hff0736-23.png"
+	},
+	{
+		"name": "冰雹橙色",
+		"icon": "hff0736-33.png"
+	},
+	{
+		"name": "冰雹红色",
+		"icon": "hff0736-34.png"
+	},
+	{
+		"name": "暴雪蓝色",
+		"icon": "hff0736-9.png"
+	},
+	{
+		"name": "暴雪黄色",
+		"icon": "hff0736-10.png"
+	},
+	{
+		"name": "暴雪红色",
+		"icon": "hff0736-12.png"
+	},
+	{
+		"name": "暴雪橙色",
+		"icon": "hff0736-11.png"
+	},
+	{
+		"name": "道路结冰黄色",
+		"icon": "hff0736-44.png"
+	},
+	{
+		"name": "道路结冰橙色",
+		"icon": "hff0736-45.png"
+	},
+	{
+		"name": "道路结冰红色",
+		"icon": "hff0736-46.png"
+	},
+	{
+		"name": "干旱橙色",
+		"icon": "hff0736-28.png"
+	},
+	{
+		"name": "干旱红色",
+		"icon": "hff0736-29.png"
+	},
+	{
+		"name": "霜冻蓝色",
+		"icon": "hff0736-35.png"
+	},
+	{
+		"name": "霜冻黄色",
+		"icon": "hff0736-36.png"
+	},
+	{
+		"name": "霜冻橙色",
+		"icon": "hff0736-37.png"
+	},
+	{
+		"name": "霾黄色",
+		"icon": "hff0736-42.png"
+	},
+	{
+		"name": "霾橙色",
+		"icon": "hff0736-43.png"
+	},
+	{
+		"name": "臭氧黄色",
+		"icon": "hff0736-47.png"
+	},
+	{
+		"name": "臭氧橙色",
+		"icon": "hff0736-48.png"
+	}
+]

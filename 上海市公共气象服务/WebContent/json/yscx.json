@@ -1,0 +1,497 @@
+[
+	{
+		"id": 1,
+		"attributes": {
+			"code": ""
+		},
+		"text": "平均值查询",
+		"children": [
+			{
+				"id": 2,
+				"attributes": {
+					"code": "11"
+				},
+				"text": "平均值查询"
+			}
+		]
+	},{
+		"id": 1,
+		"attributes": {
+			"code": ""
+		},
+		"state": "closed",
+		"text": "极值查询",
+		"children": [
+			{
+				"id": 2,
+				"attributes": {
+					"code": "21"
+				},
+				"text": "要素排名",
+				"state": "closed",
+				"children": [
+					{
+						"id": 3,
+						"attributes": {
+							"code": "301"
+						},
+						"text": "日雨量查询"
+					},{
+						"id": 3,
+						"attributes": {
+							"code": "303"
+						},
+						"text": "日最高气温",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "日最高气温（最高）"
+								},
+								"text": "最高"
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "日最高气温（最低）"
+								},
+								"text": "最低"
+							}
+						]
+					},{
+						"id": 3,
+						"attributes": {
+							"code": "304"
+						},
+						"text": "日最低气温",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "日最低气温（最高）"
+								},
+								"text": "最高"
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "日最低气温（最低）"
+								},
+								"text": "最低"
+							}
+						]
+					},{
+						"id": 3,
+						"attributes": {
+							"code": "305"
+						},
+						"text": "日平均气温",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "日平均气温（最高）"
+								},
+								"text": "最高"
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "日平均气温（最低）"
+								},
+								"text": "最低"
+							}
+						]
+					}
+				]
+			}, {
+				"id": 2,
+				"attributes": {
+					"code": "22"
+				},
+				"text": "重要天气",
+				"state": "closed",
+				"children": [
+					{
+						"id": 3,
+						"attributes": {
+							"code": "31"
+						},
+						"text": "四季",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "入春",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "入春（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "入春（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "春季长度",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "春季长度（最长）"
+										},
+										"text": "最长"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "春季长度（最短）"
+										},
+										"text": "最短"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "入夏",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "入夏（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "入夏（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "夏季长度",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "夏季长度（最长）"
+										},
+										"text": "最长"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "夏季长度（最短）"
+										},
+										"text": "最短"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "入秋",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "入秋（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "入秋（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "秋季长度",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "秋季长度（最长）"
+										},
+										"text": "最长"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "秋季长度（最短）"
+										},
+										"text": "最短"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "入冬",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "入冬（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "入冬（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "41"
+								},
+								"text": "冬季长度",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "冬季长度（最长）"
+										},
+										"text": "最长"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "冬季长度（最短）"
+										},
+										"text": "最短"
+									}
+								]
+							}
+						]
+					},{
+						"id": 3,
+						"attributes": {
+							"code": "32"
+						},
+						"text": "梅雨",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "42"
+								},
+								"text": "入梅",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "入梅（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "入梅（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "42"
+								},
+								"text": "出梅",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "出梅（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "出梅（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "42"
+								},
+								"text": "梅雨长度",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "梅雨长度（最长）"
+										},
+										"text": "最长"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "梅雨长度（最短）"
+										},
+										"text": "最短"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "42"
+								},
+								"text": "梅雨量",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "梅雨量（最多）"
+										},
+										"text": "最多"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "梅雨量（最少）"
+										},
+										"text": "最少"
+									}
+								]
+							}
+						]
+					},{
+						"id": 3,
+						"attributes": {
+							"code": "33"
+						},
+						"text": "高温",
+						"state": "closed",
+						"children": [
+							{
+								"id": 4,
+								"attributes": {
+									"code": "43"
+								},
+								"text": "高温总日数",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "高温总日数（最多）"
+										},
+										"text": "最多"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "高温总日数（最少）"
+										},
+										"text": "最少"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "43"
+								},
+								"text": "高温出现时间",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "高温出现时间（最早）"
+										},
+										"text": "最早"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "高温出现时间（最晚）"
+										},
+										"text": "最晚"
+									}
+								]
+							},{
+								"id": 4,
+								"attributes": {
+									"code": "43"
+								},
+								"text": "连续高温日数",
+								"state": "closed",
+								"children": [
+									{
+										"id": 5,
+										"attributes": {
+											"code": "连续高温日数（最多）"
+										},
+										"text": "最多"
+									},{
+										"id": 5,
+										"attributes": {
+											"code": "连续高温日数（最少）"
+										},
+										"text": "最少"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},{
+		"id": 1,
+		"attributes": {
+			"code": ""
+		},
+		"state": "closed",
+		"text": "数据监控",
+		"children": [
+			{
+				"id": 2,
+				"attributes": {
+					"code": "331"
+				},
+				"text": "数据监控"
+			}
+		]
+	}
+]
+	
